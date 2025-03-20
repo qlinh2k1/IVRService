@@ -1,0 +1,38 @@
+{
+  "RedisConnection": {
+	  "Hostname": "172.27.2.33",
+    "Port": 6379,
+    "Password": "ph9UpCytm6fhZCdB",
+    "HashGroupCaller": "VIETCREDIT_CallerStatus",
+    "StartNextIndex": 0,
+    "NextIndex": 1
+  },
+  "AGI": {
+    "Monitor": "/var/spool/asterisk/monitor",
+    "FileCallerNumber": "/home/RandomCallerNumber/GroupNumber.conf",
+    "Port": 4575,
+    "Mobi": {
+      "prefix": [ "070", "076", "077", "078", "079", "089", "090", "093" ]
+    },
+    "viettel": {
+      "prefix": [ "086", "096", "097", "098", "032", "033", "034", "035", "036", "037", "038", "039", "8486", "8496", "8497", "8498", "8432", "8433", "8434", "8435", "8436", "8437", "8438", "8439" ]
+    },
+    "vina": {
+      "prefix": [ "088", "091", "094", "083", "084", "085", "081", "082", "8488", "8491", "8494", "8483", "8484", "8485", "8481", "8482" ]
+    }
+  },
+  "Telegram": {
+    "chat_id": "",
+    "Token": ""
+  },
+  "RabbitMQ": {
+    "Hostname": [ "172.27.2.33" ],
+    "Port": 5672,
+    "MessageCount": 20,
+    "VirtualHost": "VIETCREDIT",
+    "UserName": "sup_admin_vietcredit",
+    "Password": "BVs9CnYy2nsS",
+    "QueueToVoiceMail": "VIETCREDITQueueDataTocall",
+    "QueueToNotifyLockNumber": "VIETCREDITQueueToLockNumberNotify"
+  }
+}
